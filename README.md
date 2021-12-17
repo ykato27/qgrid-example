@@ -1,6 +1,6 @@
-# python-template-repository
+# qgrid-example
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+upyter上で対話的にDataFrameをソート・フィルター・編集できるライブラリー
 
 
 ## リポジトリ構成
@@ -26,12 +26,12 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/qgrid-example）
 ```
-cd Desktop/python-template-repository
+cd Desktop/qgrid-example
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
+* Dockerによる環境構築（フォルダをマウント：Desktop/qgrid-example）
 ```
 docker-compose up --build
 ```
