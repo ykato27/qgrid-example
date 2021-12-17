@@ -6,8 +6,10 @@ RUN apt-get update && apt-get install -y \
 	libsm6 \
 	libxext6 \
 	libxrender-dev \
-	libglib2.0-0
-RUN apt-get install -y libxrender1 libfontconfig1 --fix-missing
+	libglib2.0-0 \
+	libxrender1 \
+	libfontconfig1 \
+	--fix-missing
 
 WORKDIR /opt
 RUN wget https://repo.continuum.io/archive/Anaconda3-2021.04-Linux-x86_64.sh && \
